@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  ML
+//  Cosmetic
 //
-//  Created by Nguyễn Đức Thọ on 15/03/2022.
+//  Created by Nguyễn Đức Thọ on 8/7/21.
 //
 
 import UIKit

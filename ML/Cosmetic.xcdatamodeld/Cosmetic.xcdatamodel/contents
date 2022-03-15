@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H524" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CosmeticIngredients" representedClassName="CosmeticIngredients" syncable="YES">
+        <attribute name="categories1" optional="YES" attributeType="String"/>
+        <attribute name="categories2" optional="YES" attributeType="String"/>
+        <attribute name="categories3" optional="YES" attributeType="String"/>
+        <attribute name="descriptionen" optional="YES" attributeType="String"/>
+        <attribute name="descriptionvn" optional="YES" attributeType="String"/>
+        <attribute name="inci" optional="YES" attributeType="String"/>
+        <attribute name="rating" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CosmeticIngredients" positionX="81" positionY="-117" width="128" height="148"/>
+    </elements>
+</model>

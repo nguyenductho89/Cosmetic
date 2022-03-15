@@ -1,0 +1,17 @@
+@startuml
+
+activate NSManagedObjectContext
+NSManagedObjectContext <- NSEntityDescription
+
+NSEntityDescription -> NSEntityDescription: <<create>>
+activate NSEntityDescription
+
+NSManagedObjectContext <- NSManagedObject
+NSEntityDescription <- NSManagedObject
+NSManagedObject -> NSManagedObject: <<create>>
+activate NSManagedObject
+
+NSManagedObject -> NSManagedObject: setValue:forKey
+
+NSManagedObjectContext -> NSManagedObjectContext: save
+@enduml
