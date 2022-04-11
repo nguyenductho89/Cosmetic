@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D02221B42804951B003C2211 /* Earthquakes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D02221B22804951B003C2211 /* Earthquakes.xcdatamodeld */; };
 		D044D83F2802831F000BF747 /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D044D83D2802831F000BF747 /* QuakeError.swift */; };
 		D044D8402802831F000BF747 /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = D044D83E2802831F000BF747 /* Quake.swift */; };
 		D0A164C927E0FCAD00C5A404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A164C827E0FCAD00C5A404 /* AppDelegate.swift */; };
@@ -80,6 +81,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D02221B32804951B003C2211 /* Earthquakes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Earthquakes.xcdatamodel; sourceTree = "<group>"; };
 		D044D83D2802831F000BF747 /* QuakeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuakeError.swift; sourceTree = "<group>"; };
 		D044D83E2802831F000BF747 /* Quake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
 		D0A164C527E0FCAD00C5A404 /* ML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ML.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -326,6 +328,7 @@
 				D0D495F72801C1BE00F9A9BE /* Assets.xcassets */,
 				D0D495F92801C1BE00F9A9BE /* LaunchScreen.storyboard */,
 				D0D495FC2801C1BE00F9A9BE /* Info.plist */,
+				D02221B22804951B003C2211 /* Earthquakes.xcdatamodeld */,
 				D0D495F42801C1BB00F9A9BE /* CoreDataTest.xcdatamodeld */,
 			);
 			path = CoreDataTest;
@@ -568,6 +571,7 @@
 				D0D495F62801C1BB00F9A9BE /* CoreDataTest.xcdatamodeld in Sources */,
 				D044D83F2802831F000BF747 /* QuakeError.swift in Sources */,
 				D0D495F02801C1BB00F9A9BE /* ViewController.swift in Sources */,
+				D02221B42804951B003C2211 /* Earthquakes.xcdatamodeld in Sources */,
 				D0D495EC2801C1BB00F9A9BE /* AppDelegate.swift in Sources */,
 				D0D4961E2801D41700F9A9BE /* CoreDataManager.swift in Sources */,
 				D044D8402802831F000BF747 /* Quake.swift in Sources */,
@@ -1052,6 +1056,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		D02221B22804951B003C2211 /* Earthquakes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D02221B32804951B003C2211 /* Earthquakes.xcdatamodel */,
+			);
+			currentVersion = D02221B32804951B003C2211 /* Earthquakes.xcdatamodel */;
+			path = Earthquakes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		D0A164D127E0FCAD00C5A404 /* ML.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
